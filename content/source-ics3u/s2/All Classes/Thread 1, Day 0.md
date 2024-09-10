@@ -3,11 +3,12 @@ tags:
 excludeBacklinks: true
 excludeFromExplorer: true
 enableToc: false
-created: 2024-09-09T00:00:00.000-0400
+createdForSectionTwo: 2024-09-07T00:00:00.000-0400
 ---
 ## Agenda
-1. [Course Outline](https://drive.google.com/file/d/1Y015iAm4H1Z1AuxJ95ZGki3ZiDa3Jd0z/view?usp=sharing)
-	
-## Things to do before our next class
+1. [Course Outline](https://drive.google.com/file/d/1qBRTN-AjrFhCuNItfIOblKPqq7hqgkkC/view?usp=share_link)
+1. Portfolio: [[Creating a Notion Account]]
+1. Portfolio: [[First Entry]]
 
-*No to-do items before our next class. See you in October! 🍂*
+## Things to do before our next class
+- [ ] Be sure you have [[First Entry|written your first portfolio post]] to introduce yourself and identify your areas of interest.
