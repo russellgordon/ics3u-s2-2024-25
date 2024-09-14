@@ -20,11 +20,11 @@ echo "Vault folders removed."
 # Remove section specific symlinks
 #
 echo "Removing section 1 specific symlinks..."
-rm content/All\ Classes 
-rm content/Grove\ Time.md 
-rm content/index.md      
-rm content/Key\ Links.md 
-rm content/Private\ Notes.md 
+rm content/All\ Classes
+rm content/Grove\ Time.md
+rm content/index.md
+rm content/Key\ Links.md
+rm content/Private\ Notes.md
 rm content/Scratch\ Page.md
 echo "Done."
 #
