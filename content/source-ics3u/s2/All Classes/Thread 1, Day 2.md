@@ -14,6 +14,7 @@ createdForSectionTwo: 2024-09-19T00:34:55.000-0400
 3. Setup: [[Xcodes]]
 4. Exercise: [[Name Plate]]
 	- Complete your name plate today.
+5. Concept: [[Diagonal Turtle Movements]]
 
 > [!NOTE]
 > 
