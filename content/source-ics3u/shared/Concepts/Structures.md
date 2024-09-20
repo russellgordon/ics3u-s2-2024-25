@@ -20,8 +20,6 @@ These might include:
 - height
 - mass
 
-Make a new [[Xcode Playgrounds|Xcode playground]], this time named **Structures**.
-
 ## Definition of a structure
 
 This is the *definition* of a structure:
