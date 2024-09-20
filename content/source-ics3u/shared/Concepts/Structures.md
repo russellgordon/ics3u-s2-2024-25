@@ -77,11 +77,7 @@ Once an instance of a structure is created, we can "ask about" the values held i
 > 
 > Add the following code to the bottom of your **Structures** playground and try it out.
 > 
-> `me.name`
-> `me.hairColour`
 > `me.age`
-> `me.height`
-> `me.mass`
 > 
 > What shows up in the results sidebar, at right?
 
