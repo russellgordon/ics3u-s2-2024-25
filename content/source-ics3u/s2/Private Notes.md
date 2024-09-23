@@ -63,3 +63,7 @@ This is a space to make private notes and observations regarding students. This 
 	- Favourite movie: Original Mean Girls movie and original Maze Runner movie.
 	- Likes the Hunger Games book series, and watching gymnastics.
 	- Nothing else in particular to know.
+- Harshan
+	- Loves basketball
+	- Excited to build apps that help others
+	- 
