@@ -5,6 +5,12 @@ tags:
 ---
 This is a space to make private notes and observations regarding students. This page will not be published to the web.
 
+# Things to look at
+
+Why this happens:
+
+![[Screenshot 2024-09-25 at 7.12.45 AM.png]]
+
 # Student Interests and Notes
 
 - Kaan
