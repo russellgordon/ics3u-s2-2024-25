@@ -99,7 +99,7 @@ You can think of this view as a blueprint.
 
 User interface designers call this a "wireframe" or a "block design".
 
-### Shapes
+## Push-out views
 
 We will build this view using the `Rectangle` shape.
 
