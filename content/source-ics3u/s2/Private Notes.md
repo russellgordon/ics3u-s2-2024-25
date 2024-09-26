@@ -5,6 +5,24 @@ tags:
 ---
 This is a space to make private notes and observations regarding students. This page will not be published to the web.
 
+# Mid-module reviews
+
+Isla - ME
+Elaine - ME
+Marcus - ME
+Harshan - ME
+Ethan - ME
+Collin - ME
+Kaan - ME
+Kevin - ME
+Daniel - ME
+Thomas - ME
+Michael - ME
+Kyle - ME
+Courage - ME
+Hannu - ME
+Joseph - ME
+
 # Things to look at
 
 Why this happens:
