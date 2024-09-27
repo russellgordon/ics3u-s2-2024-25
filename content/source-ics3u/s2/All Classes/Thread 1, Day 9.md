@@ -9,6 +9,15 @@ enableToc: false
 createdForSectionTwo: 2024-09-30T00:34:55.000-0400
 ---
 ## Agenda
+1. Setup: Textbook Distribution
+2. Setup: Create a GitHub Account
+3. Tutorial: Using Source Control
+3. Concept: Interactive Apps
+	- Extend from prior day
+	- See [[Separation of Concerns]] and adapt
+4. Task: Interactive 2D app
+	- Students make app that actually calculates values interactively for their assigned 2D or 3D figure.
+
 1. Task: Reproduce an Interface
 	- Provide short video showing how this was done for a given UI
 	- Each student gets their own UI to reproduce
