@@ -47,12 +47,12 @@ When we get code from a remote, that is called a *pull*.
 Here's a little illustration of how this all works:
 
 ![[source_control.png]]
-<small>Image credit: [blog.easycorp.cn](https://blog.easycorp.cn/blog/git-sync-remote-repos-update-80619.html)</small>
+<br/><small>Image credit: [Git-it](http://jlord.us/git-it/index.html)</small>
 
 Source control is really useful for individuals, but it can also be used by teams to collaborate:
 
 ![[source-control-xkcd.png|200]]
-<small>Image credit: [xkcd](https://xkcd.com)</small>
+<br/><small>Image credit: [xkcd](https://xkcd.com)</small>
 
 We'll mostly use `git` and GitHub for solo work this year. And don't worry – we'll nearly always use source control through Xcode, with a nice graphical user interface. You *can* use it through a shell, or command line interface, but... you don't have to!
 
