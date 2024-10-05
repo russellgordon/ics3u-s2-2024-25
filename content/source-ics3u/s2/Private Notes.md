@@ -5,6 +5,68 @@ tags:
 ---
 This is a space to make private notes and observations regarding students. This page will not be published to the web.
 
+# End of module 1 reviews
+
+## Ainsley
+
+80%
+
+## Isla
+
+97%
+
+## Elaine
+
+93%
+
+## Courage
+
+97%
+
+## Daniel
+
+95%
+
+## Kaan
+
+94%
+
+## Kevin
+
+88% 
+
+## Ethan
+
+96%
+
+## Collin
+
+90%
+
+## Thomas
+
+97%
+
+## Joseph
+
+96%
+
+## Michael
+
+80%
+
+## Kyle
+
+93%
+
+## Hannu
+
+94%
+
+## Marcus
+
+96%
+
 # Mid-module reviews
 
 Isla - ME
