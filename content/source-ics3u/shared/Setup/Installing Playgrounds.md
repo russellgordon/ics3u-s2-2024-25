@@ -1,10 +1,10 @@
 ---
 draft: false
 draftSectionTwo: false
-enableToc: false
-excludeBacklinks: true
 created: 2024-10-07T00:00:00.000-0400
 createdForSectionTwo: 2024-09-16T00:00:00.000-0400
+enableToc: false
+excludeBacklinks: true
 tags:
 ---
 You can install [Playgrounds on macOS](https://apps.apple.com/ca/app/swift-playgrounds/id1496833156?mt=12), and optionally install it on an iPad, if you have one.

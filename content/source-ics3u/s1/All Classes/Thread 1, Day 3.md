@@ -1,12 +1,10 @@
 ---
 transcludeTitleSize: h2
 tags:
-draft: true
-draftSectionTwo: false
 excludeBacklinks: true
 excludeFromExplorer: true
 enableToc: false
-createdForSectionTwo: 2024-09-20T00:34:55.000-0400
+created: 2024-10-09T00:00:00.000-0400
 ---
 ## Agenda
 1. Tutorial: [[Taking Screenshots]]
@@ -25,4 +23,4 @@ createdForSectionTwo: 2024-09-20T00:34:55.000-0400
 	- Complete [[Structures#Exercise|the exercise]] to practice modelling the information shown on the hockey cards.
 
 ## Things to do before our next class
-- [ ] Complete the exercises given in class today.
+- [ ] As needed over this Thanksgiving Weekend, complete the exercises given above.
