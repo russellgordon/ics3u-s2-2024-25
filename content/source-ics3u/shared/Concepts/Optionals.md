@@ -1,8 +1,9 @@
 ---
 tags:
-created: 2024-01-10T00:00:00.000-0400
-draft: true
-draftSectionTwo: true
+created: 2024-10-29T00:00:00.000-0400
+createdForSectionTwo: 2024-11-04T07:34:55.000-0400
+draft: false
+draftSectionTwo: false
 ---
 ## Introduction
 
@@ -10,8 +11,8 @@ You already understand how to use typical data types such as `Int`, `Double`, `S
 
 You have already built – or will build soon – applications that accept user input in these ways:
 
-1. As an `Int` [[Introduction to Interactive Apps|via the Stepper structure]]
-2. As a  `Double` [[Separation of Concerns|via the Slider structure]].
+1. As an `Int` via the Stepper structure
+2. As a  `Double` via the Slider structure
 
 Steppers and sliders prevent the user from providing invalid input.
 
