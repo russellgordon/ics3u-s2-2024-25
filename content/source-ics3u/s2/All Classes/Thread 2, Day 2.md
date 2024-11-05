@@ -2,15 +2,23 @@
 transcludeTitleSize: h2
 tags:
 draft: true
-draftSectionTwo: true
+draftSectionTwo: false
 excludeBacklinks: true
 excludeFromExplorer: true
 enableToc: false
-createdForSectionTwo: 2024-10-04T00:34:55.000-0400
+createdForSectionTwo: 2024-11-05T07:34:55.000-0400
 ---
 ## Agenda
-1. Shapes? Return to Geometric Figures and make shapes interactive?
+1. Demo: Cloning a Remote Repository
+	- Please follow this link [to see Mr. Gordon's repository](https://github.com/lcs-rgordon/GeometricFigures2024S2) for his **Geometric Figures** app.
+	- Mr. Gordon will then demonstrate how to clone this remote repository to your own computer.
+2. Concept: Applying Abstraction
+	- Learn how to avoid repetitive code by creating a helper structure in a user interface.
+	- Then, try applying the same techniques to your own **Geometric Figures** app.
+3. Recap: [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift-tutorials)
+	- A self-paced opportunity to consolidate concepts learned in the first module of this course, and learn a few new ways to navigate the features of Xcode.
+	- Chapters 1, 2, and 3 are good choices to complete at this time.
 
 ## Things to do before our next class
 
-_No to-do items before our next class. See you in November! ❄️_
+- [ ] Write about what you learned and made progress on today in a portfolio entry on [Notion](https://notion.so).

@@ -9,6 +9,7 @@ enableToc: false
 createdForSectionTwo: 2024-10-04T00:34:55.000-0400
 ---
 ## Agenda
+1. Shapes? Return to Geometric Figures and make shapes interactive?
 1. Swift Package Manager? Share geometric figures with others?
 2. Load apps on phones?
 
