@@ -15,9 +15,6 @@ createdForSectionTwo: 2024-11-05T07:34:55.000-0400
 2. Concept: [Applying Abstraction](https://vimeo.com/1026645773?share=copy)
 	- Learn how to avoid repetitive code by creating a helper structure in a user interface.
 	- Then, try applying the same techniques to your own **Geometric Figures** app.
-3. Recap: [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift-tutorials)
-	- A self-paced opportunity to consolidate concepts learned in the first module of this course, and learn a few new ways to navigate the features of Xcode.
-	- Chapters 1, 2, and 3 are good choices to complete at this time.
 
 ## Things to do before our next class
 
