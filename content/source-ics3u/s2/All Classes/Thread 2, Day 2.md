@@ -12,7 +12,7 @@ createdForSectionTwo: 2024-11-05T07:34:55.000-0400
 1. Demo: Cloning a Remote Repository
 	- Please follow this link [to see Mr. Gordon's repository](https://github.com/lcs-rgordon/GeometricFigures2024S2) for his **Geometric Figures** app.
 	- Mr. Gordon will then demonstrate how to clone this remote repository to your own computer.
-2. Concept: Applying Abstraction
+2. Concept: [Applying Abstraction](https://vimeo.com/1026645773?share=copy)
 	- Learn how to avoid repetitive code by creating a helper structure in a user interface.
 	- Then, try applying the same techniques to your own **Geometric Figures** app.
 3. Recap: [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift-tutorials)
