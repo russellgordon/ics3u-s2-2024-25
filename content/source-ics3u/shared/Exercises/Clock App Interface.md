@@ -330,6 +330,10 @@ Now use your knowledge of horizontal and vertical stacks, and SwiftUI Views Mast
 
 ![[World Clock.png|350]]
 
+> [!TIP]
+> 
+> This page has a great reference for [changing the font size of the system font](https://sarunw.com/posts/how-to-change-swiftui-font-size/#system-font).
+
 ### 2. Alarms
 
 Reproduce the Alarms interface:
