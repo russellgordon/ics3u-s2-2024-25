@@ -1,7 +1,7 @@
 ---
 transcludeTitleSize: h2
 tags:
-draft: false
+draft: true
 draftSectionTwo: false
 excludeBacklinks: true
 excludeFromExplorer: true
