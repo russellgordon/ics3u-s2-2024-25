@@ -91,7 +91,7 @@ An opportunity to demonstrate your understanding of key concepts. Specifically, 
 
 ## Progress and due date
 
-The task is due by 11 PM this Monday, November 18, 2024.
+The task is due by 11 PM on Monday, November 18, 2024.
 
 After each class, [on Notion](https://notion.so), be sure to:
 - [ ] Share progress regularly

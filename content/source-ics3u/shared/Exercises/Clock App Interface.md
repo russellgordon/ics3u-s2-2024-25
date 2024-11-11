@@ -345,3 +345,153 @@ Reproduce the Alarms interface:
 As an extension, see if you can reproduce the Stopwatch interface:
 
 ![[Stopwatch.png|350]]
+
+## Addendum
+
+### Applying abstraction
+
+If you are just starting on the [[Clock App Interface#1. Finish World Clock|first exercise]] your code might look like this:
+
+![[Screenshot 2024-11-11 at 8.01.08 AM.png]]
+
+After a bit of work, you might come up with something like the following:
+
+![[Pasted image 20241111082433.png]]
+
+> [!TIP]
+> 
+> There are a few design issues to sort out:
+> 
+> 1. A bit too much space between elements.
+> 2. The alignment of items inside the `HStack` is not quite right.
+>  
+>  To fix these issues, consult [[SwiftUI Views Mastery]], beginning on page 79, and take note especially of the spacing and text-alignment options described on pages 82 through 84.
+
+Once you have the design above, you *could* start to copy-and-paste the `HStack`, and change the `Text` views to get additional entries, like this:
+
+![[Pasted image 20241111083556.png]]
+
+However, that breaks the number one rule of software development:
+
+**D.R.Y.** or **D**on't **R**epeat **Y**ourself
+
+Instead, we could extract the `HStack` into a new subview:
+
+![[Screenshot 2024-11-11 at 8.17.31 AM (2).png]]
+
+Like this:
+
+![[Screenshot 2024-11-11 at 8.19.31 AM.png]]
+
+Then, we can analyze what information the subview is displaying. It needs to show:
+
+1. The time zone offset
+2. The city name
+3. The current time
+4. Whether the time is AM or PM
+
+So, we can add stored properties for those values:
+
+![[Pasted image 20241111082826.png]]
+
+As soon as we add stored properties, where an instance of `ExtractedView` is created, we must pass in arguments (answers) for the parameters (questions) to populate the stored properties with some values. Like this:
+
+![[Pasted image 20241111083030.png]]
+
+Finally, in order to *see* the values passed into the stored properties of `ExtractedView`, we must *use* the stored properties within the `body` property, which is, of course, a computed property:
+
+![[Pasted image 20241111083153.png]]
+
+> [!NOTE]
+> 
+> Using stored properties within the `body` computed property is just like what you did with your **GeometricFigures** structure for a 2D or 3D shape:
+> 
+> ![[Pasted image 20241111083342.png]]
+> 
+> In that screenshot, the `radius` stored property is used to calculate values for the `diameter`, `area`, `perimeter`, and `description` computed properties.
+
+Once we have done that, we can now replace the second `HSTack` with an instance of `ExtractedView` and pass in different values for the four parameters:
+
+![[Pasted image 20241111083842.png]]
+
+Above, we are using the `ExtractedView` structure by creating two instances of it, each time passing in different values.
+
+It's very easy to add additional cities now – we just create more instances of `ExtractedView`:
+
+![[Pasted image 20241111084143.png]]
+
+Finally, to keep our project organized and readable, we probably want to do a bit more re-factoring.
+
+We can rename the `ExtractedView` structure:
+
+![[Screenshot 2024-11-11 at 8.43.53 AM (2).png]]
+
+To, say, `CityView`:
+
+![[Pasted image 20241111084431.png]]
+
+We press the **Return** key on our keyboard to finish renaming the structure:
+
+![[Pasted image 20241111084515.png]]
+
+Finally (if you are using Xcode 16) you can extract the subview into its own file:
+
+![[Screenshot 2024-11-11 at 8.45.44 AM (2).png]]
+
+Like this:
+
+![[Pasted image 20241111084648.png]]
+
+Which just helps to keep the contents of the **WorldClockView** file from getting too long:
+
+![[Pasted image 20241111084627.png]]
+
+If you were following along with these notes about how to apply abstraction in your own project, now is a good time to [[Pushing Commits|commit and push]] your work, using this message:
+
+> Applied abstraction to show many cities in the World Clock user interface using a helper view.
+
+### Starting the Alarms interface
+
+If you are next trying to build the **Alarms** screen interface, you will see the following at first:
+
+![[Pasted image 20241111085154.png]]
+
+Of course, you will want to see the tab view. So, as we did before for the **WorldClockView**, change what is shown by the preview so that it shows the **LandingView** instead:
+
+![[Pasted image 20241111085326.png]]
+
+The only problem is that **LandingView** is showing the first tab, which is the **World Clock** interface.
+
+To fix this, switch to **LandingView**, and change the selected tab from 1 to 2:
+
+![[Pasted image 20241111085931.png]]
+
+Now switch back to **AlarmsView** and add a navigation title like we did for **WorldClockView**:
+
+![[Pasted image 20241111090049.png]]
+
+Then add a `VStack` around the text view:
+
+![[Pasted image 20241111090116.png]]
+
+Now you can continue trying to reproduce the interface.
+
+You might want to start by adding an `HStack`, with text at left, and a toggle at right, but how to do this?
+
+When you add a `Toggle` view, it expects a *binding*. What is a binding? Recall, you [used a binding](https://vimeo.com/1015475836/8c4ea1d1f2#chapter=16048668) with the `Slider` view you used when building your **GeometricFigures** app:
+
+![[Pasted image 20241111090415.png]]
+
+Similar to a `Slider`, a `Toggle` expects to be given a binding – connected to a stored property that is marked with `@State`.
+
+However, when we are building static interfaces like in this exercise – static meaning non-functional – we can use a *constant* binding to skip this step – no need for a stored property to hold whether the toggle is on or not.
+
+So, rather than connecting the `Toggle` to a stored property marked with `@State` we can simply do the following:
+
+![[Pasted image 20241111091039.png]]
+
+From here, use your knowledge of layout concepts using stacks, and consult [[SwiftUI Views Mastery]] as a reference, to do your best to reproduce this interface.
+
+> [!TIP]
+> 
+> Don't forget to apply abstraction to stay **D.R.Y.**!
