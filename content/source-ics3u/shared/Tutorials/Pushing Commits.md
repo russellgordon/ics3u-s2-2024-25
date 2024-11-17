@@ -5,7 +5,7 @@ tags:
 created: 2024-11-05T01:23:31.000-0400
 createdForSectionTwo: 2024-11-11T03:00:00.000-0400
 ---
-When you *commit* code this creates a save point kept in a local repository on your computer.
+When you *commit* code using the **Option-Command-C** keyboard shortcut, or by choosing, from the menus, **Integrate > Commit...** this opens the interface in Xcode where you can create a save point kept in a local repository on your computer.
 
 To be sure you have a backup and to share your work with Mr. Gordon and others, you must also *push* your code to a remote.
 
