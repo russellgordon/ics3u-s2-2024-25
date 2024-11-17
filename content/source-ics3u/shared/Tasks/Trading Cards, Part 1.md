@@ -122,7 +122,9 @@ Here are some examples of possible layouts that you could aim to reproduce, or u
 
 ![[Trading Card Template Examples-9 (dragged).png|400]]
 
-## Typefaces
+## Tips
+
+### Typefaces
 
 You can use other typefaces in iOS applications.
 
@@ -133,6 +135,64 @@ Consult the [iOS Fonts](http://iosfonts.com) website for a quick reference.
 > [!TIP]
 > 
 > Page 478 in [[SwiftUI Views Mastery]] has examples of how to use custom fonts, as well.
+
+### Rotation (2D)
+
+Any view in SwiftUI can be rotated using the `.rotationEffect` view modifier.
+
+Here is a short example of how rotation of views might be used to create a nice effect:
+
+![[Pasted image 20241117103009.png]]
+
+> [!TIP]
+> 
+> Read more about rotating views in two dimensions on page 901 of [[SwiftUI Views Mastery]].
+
+### Rotation (3D)
+
+There is also a `.rotation3DEffect` view modifier.
+
+Here is a short example of how this might be used to create a nice effect:
+
+![[Pasted image 20241117103657.png]]
+
+> [!TIP]
+> 
+> Read more about rotating views in three dimensions on page 904 of [[SwiftUI Views Mastery]].
+
+### Custom colours
+
+You can absolute create custom colours (or clone colours from existing apps or webpages).
+
+Here is a mini-tutorial on how to [[Creating Custom Color Sets in Xcode|create custom colour sets]].
+
+![[Screenshot 2024-11-15 at 3.57.23 PM (2) 1.png]]
+
+### Gradients
+
+We can use gradients to fill a shape or as a background – a gradient is a transition from one colour to at least one other colour.
+
+Here is an example of what this might look like, using a Blue Jays theme and some [[Creating Custom Color Sets in Xcode|custom colors]]:
+
+![[Pasted image 20241117105911.png]]
+
+> [!TIP]
+> 
+> Read more about linear gradients on page 654 of [[SwiftUI Views Mastery]].
+> 
+> There are other types of gradients you can use too (see page 639).
+
+### Image Editing
+
+Sometimes it's nice to be able to extract an image from a photograph, to use it in our apps:
+
+![[Screenshot 2024-11-17 at 11.22.05 AM.png]]
+
+Read this mini-tutorial to learn [[Copy a Subject from a Photograph|how to extract the subject of a photograph]] from it's background.
+
+> [!NOTE]
+> 
+> It's only acceptable to copy images like this from the Internet for an academic exercise like this one. Were you looking for images to use in an actual app you wish to release to the public, you would need to either purchase the rights to use that image, or find an image that is [licensed for the uses you need](https://search.creativecommons.org).
 
 ## Final advice
 
