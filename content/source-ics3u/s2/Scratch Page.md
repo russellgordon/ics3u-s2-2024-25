@@ -1,8 +1,17 @@
-`---
+---
 draft: true
 draftSectionTwo: true
 tags:
 ---
+
+Progression:
+
+- Shapes
+- Subviews with bindings
+- Revised hockey card task
+- arrays
+- 
+
 
 3. Recap: [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift-tutorials)
 	- A self-paced opportunity to consolidate concepts learned in the first module of this course, and learn a few new ways to navigate the features of Xcode.
