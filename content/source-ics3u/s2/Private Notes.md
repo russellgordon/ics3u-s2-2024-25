@@ -152,8 +152,8 @@ Joseph - ME
 
 # Mid-module reviews- Mod 2
 
-Isla - 
-Ainsley - 
+Isla - EE
+Ainsley - ME
 Elaine - ME
 Marcus - BE
 Harshan - ME
