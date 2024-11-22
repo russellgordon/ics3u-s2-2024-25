@@ -12,6 +12,8 @@ createdForSectionTwo: 2024-11-22T03:34:55.000-0400
 1. Concept: [[Abstraction Using Lists]]
 	- Using the [[Driver-Navigator Pattern]], with a partner, read the lesson.
 	- Then, complete the [[Abstraction Using Lists#Exercise|exercise]] on your own computer – but feel free to discuss the general idea of what needs to be done with your partner, helping them out as needed.
+1. Discussion: Course Feedback Survey
+	- For the final 5-10 minutes of class today, I will ask for your feedback regarding this course.
 
 ## Things to do before our next class
 
