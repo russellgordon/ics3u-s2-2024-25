@@ -31,7 +31,7 @@ An opportunity to demonstrate your understanding of the following concepts:
    
    ![[Pasted image 20241124210523.png]]
    
-2. Make a plan on paper for at least some element of the design or your revised trading card.
+2. Make a plan on paper for at least some element of the design of your revised trading card.
    
    For example:
    
