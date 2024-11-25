@@ -4,6 +4,35 @@ draftSectionTwo: true
 tags:
 ---
 
+Progression for final week of classes:
+
+First class
+- Navigation + Tab view review + app entry point discussion vs. previews
+	- exercise: add navigation to your favourite things app + a tab with an about the developer page
+
+Second
+- Custom shapes
+	- explain basic idea
+	- build a new shape
+- Trading cards, part two
+	- MAKE A PLAN (for custom shape + card layout changes)
+	- add a shape to your card
+	- add several cards (apply abstraction, add navigation)
+
+Third
+- Portfolio review
+- Guessing game lesson 
+	- take arbitrary input
+	- handle logic in separate structure
+	- handle bad input (optionals)
+
+Start of module three:
+
+- [[List and Detail Views]]
+	- recap?
+
+
+
 Progression:
 
 - Shapes
