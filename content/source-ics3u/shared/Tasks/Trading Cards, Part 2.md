@@ -18,12 +18,12 @@ An opportunity to demonstrate your understanding of the following concepts:
 
 - abstraction using helper views
 - arrays (lists)
-- navigation
+- navigation or tab views
 - custom shapes
 
 ## Success criteria and exemplar
 
-1. To exceed expectations, make a plan for a new custom shape that you will define and use in your new and improved trading card.
+1. To really exceed expectations, make a plan for, and then implement, a custom shape that you will define and use in your new and improved trading card.
    
    Use [[RocketSim_Screenshot_iPad_(10th_generation)_10.9_2024-11-24_20.49.40.png|this template]].
    
@@ -37,22 +37,24 @@ An opportunity to demonstrate your understanding of the following concepts:
    
    ![[Pasted image 20241124212153.png]]
    
-3. Then organize an Xcode project using the techniques we have learned to create your card:
+3. Then organize an Xcode project using the techniques we have learned to create your card – it is OK if your final design varies from your plan – that will happen sometimes as part of the creative process:
    
-   << insert screenshot >>
+   ![[Pasted image 20241125221449.png]]
    
-4. Create at least three different cards that the user of your app can navigate between:
+4. Create at least three different cards that the user of your app can navigate between, using either a list and navigation links, or a paged tab view (as shown in the screenshot above):
    
-   << insert video >>
+   <div style="padding:56.25% 0 0 0;position:relative;">
+	<iframe src="https://player.vimeo.com/video/1033318844?h=ff2e004291&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&portrait=0&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Opening the Teamspace">
+	</iframe>
+	</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
    
 4. Be sure to write code that follows [[Code Style Conventions|established style conventions]].
    
 8. Use source control well by [[Pushing Commits|committing and pushing]] your work to a remote on GitHub at regular intervals.
    
-   << insert screenshot of commit history >>
+   ![[Screenshot 2024-11-25 at 10.21.27 PM.png]]
    
-   ==NOTE:== This is not a complete list of commits; your actual list of commits would be much longer.
-
 ## What you'll need to begin
 
 - [ ] Xcode
@@ -64,7 +66,7 @@ An opportunity to demonstrate your understanding of the following concepts:
 The task is due no later than 11 PM on Saturday, November 30, 2024.
 
 After each class, [on Notion](https://notion.so), be sure to:
-- [ ] Share progress regularly
+- [ ] Share progress regularly (here is [[Trading Cards Exemplar|how Mr. Gordon's design evolved]])
 	- [ ] Include screenshots
 	- [ ] ==Be sure to post the address of your GitHub remote at some point==
 
