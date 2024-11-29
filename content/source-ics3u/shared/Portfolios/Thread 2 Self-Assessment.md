@@ -20,7 +20,7 @@ Fill in the template provided.
 
 Alternatively, you can copy and paste your thread 1 self-assessment, and then update your observations where appropriate, to reflect your current progress and understanding of this module's big topics:
 
-- building polishing user interfaces
+- building polished user interfaces
 - abstraction using helper views
 - abstraction using arrays (lists)
 - tab views and navigation
