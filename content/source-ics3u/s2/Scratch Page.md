@@ -4,6 +4,16 @@ draftSectionTwo: true
 tags:
 ---
 
+Idea for start of mod 3:
+
+![[Pasted image 20241201164035.png]]
+
+Quick assignment to reproduce street signs?
+
+Maybe after learning how to do curves in shapes?
+
+[![Standard Traffic Signs MUTCD Compliant - Traffic Safety Corp.](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.xwalk.com%2Fapp%2Fuploads%2F2019%2F12%2F21185354%2Fwarning-signs-v2.png&f=1&nofb=1&ipt=1ce371b522a9887d68a7b1ac4c5000560d8b68caa22cc5deaadb546b16b21ecd&ipo=images)](https://cdn.xwalk.com/app/uploads/2019/12/21185354/warning-signs-v2.png)
+
 Progression for final week of classes:
 
 First class
