@@ -1,6 +1,6 @@
 ---
 tags:
-created: 2023-10-30T00:00:00.000-0400
+created: 2023-10-30T07:00:00.000-0400
 draft: true
 draftSectionTwo: true
 ---
@@ -9,6 +9,7 @@ Xcode is a large application that serves several purposes for software developer
 Many different types of projects can be created for different Apple platforms.
 
 This short tutorial will show you how to create a project that runs on iOS.
+
 ## Create the project
 
 To create a playground, make sure that Xcode is in the foreground on your computer by clicking it's icon in the Dock:
