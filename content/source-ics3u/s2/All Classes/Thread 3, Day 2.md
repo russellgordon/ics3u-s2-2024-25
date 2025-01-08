@@ -11,7 +11,8 @@ createdForSectionTwo: 2025-01-08T03:34:55.000-0400
 ## Agenda
 1. Exercise: [[Grocery Store Flyer App]]
 	- Use the [[Driver-Navigator Pattern]] to continue working on this review exercise.
-2. Concept: [[Forking a Repository]]
+	- As desired, you may wish to [[Grocery Store Flyer App#Example Solution|watch a video that explains how to complete the first exercise]].
+1. Concept: [[Forking a Repository]]
 	- Be sure to fork your partner's repository at the end of today's class.
 
 ## Things to do before our next class
