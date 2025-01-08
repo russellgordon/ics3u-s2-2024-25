@@ -6,13 +6,13 @@ draftSectionTwo: false
 excludeBacklinks: true
 excludeFromExplorer: true
 enableToc: false
-createdForSectionTwo: 2025-01-07T03:34:55.000-0400
+createdForSectionTwo: 2025-01-08T03:34:55.000-0400
 ---
 ## Agenda
 1. Exercise: [[Grocery Store Flyer App]]
-	- Use the [[Driver-Navigator Pattern]] to refresh your memory of key concepts while you start to build a prototype of a grocery store flyer app.
+	- Use the [[Driver-Navigator Pattern]] to continue working on this review exercise.
 2. Concept: [[Forking a Repository]]
-	- Learn how to obtain a perfect duplicate of your partner's code after using the [[Driver-Navigator Pattern]] in class.
+	- Be sure to fork your partner's repository at the end of today's class.
 
 ## Things to do before our next class
 
