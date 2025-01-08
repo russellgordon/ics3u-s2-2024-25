@@ -145,7 +145,7 @@ let thisWeeksFlyer = Flyer(
 
 To begin with, by working with your partner, referring to any prior lesson, or your own previously written code, see if you can extend your project so that it is organized to have files and folders along these lines:
 
-![[Screenshot 2025-01-06 at 8.34.19 PM.png]]
+![[Pasted image 20250108075209.png]]
 
 The app itself should work something like this:
 
