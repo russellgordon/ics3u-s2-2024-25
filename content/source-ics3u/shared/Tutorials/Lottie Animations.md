@@ -1,8 +1,9 @@
 ---
-tags:
-created: 2024-01-29T07:00:00.000-0400
 draft: true
-draftSectionTwo: true
+draftSectionTwo: false
+tags: 
+created: 2024-11-12T01:23:31.000-0400
+createdForSectionTwo: 2025-01-09T03:00:00.000-0400
 ---
 If you are interested in computer animation and graphics, you may be familiar with [Adobe After Effects](https://www.adobe.com/ca/products/aftereffects.html).
 
@@ -52,16 +53,16 @@ Once the project is open, create a remote:
 
 Now, complete the following steps:
 
-1. Delete `ContentView`
-2. Create two groups:
+1. Use the **Refactor > Rename** feature to change the name of the `ContentView` structure to `AnimationsListView`.
+2. Right-click on the top-most blue folder and choose **Convert to Group.** The folders will change in colour to be grey. It will now to possible to re-arrange folders and files as you wish.
+4. Create two groups:
 	- `Model`
 	- `Views`
-3. Inside the `Views` group, create a new **SwiftUI View** named `AnimationsListView`.
-4. Make the app entry point file create an instance of `AnimationsListView`.
+5. Move `AnimationsListView` into the `Views` group.
 
 When you are all done, your project should look like this:
 
-![[Screenshot 2023-01-27 at 1.16.50 PM.png]]
+![[Pasted image 20250109135818.png]]
 
 At this point, commit and push your work to your remote, with the message:
 
@@ -102,8 +103,6 @@ If things worked correctly, you should see `Lottie` listed under **Package Depen
 > [!NOTE]
 > 
 > The exact version number of the package might vary from what you see in the screenshot above.
-> 
-> For example, the current version of the Lottie package is 4.4.0.
 
 At this point, commit and push your work to your remote, with the message:
 
