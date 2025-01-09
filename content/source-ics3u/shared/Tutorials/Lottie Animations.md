@@ -92,9 +92,17 @@ In the window that appears, type `lottie-ios` in the top-right corner:
 
 Then choose the **Add Package** button.
 
-After a moment, another window will appear. Choose **Add Package** a second time:
+After a moment, another window will appear:
 
 ![[Screenshot 2023-01-27 at 1.21.33 PM.png]]
+
+Next, it is important to choose **None** for the **Lottie-Dynamic** package product:
+
+![[Pasted image 20250109145152.png]]
+
+Finally, choose **Add Package** again:
+
+![[Pasted image 20250109145254.png]]
 
 If things worked correctly, you should see `Lottie` listed under **Package Dependencies**:
 
