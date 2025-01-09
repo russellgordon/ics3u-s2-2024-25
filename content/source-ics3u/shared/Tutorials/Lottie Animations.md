@@ -144,15 +144,11 @@ Find an animation you like:
 
 Then click the **Download** button at top-right:
 
-![[Screenshot 2024-01-28 at 6.02.08 PM.png]]
+![[Pasted image 20250109142800.png]]
 
-Click **Save to workspace to download**:
+On the page that appears, choose to download in the **Lottie JSON** format:
 
-![[Screenshot 2024-01-28 at 6.02.32 PM.png]]
-
-Once added to your workspace, download the animation in the **Lottie JSON** format:
-
-![[Screenshot 2024-01-28 at 6.04.06 PM.png]]
+![[Pasted image 20250109142844.png]]
 
 Now, make a new group named `Animations` in your Xcode project, then drag and drop the JSON file from your **Downloads** folder into the `Animations` group in Xcode:
 
