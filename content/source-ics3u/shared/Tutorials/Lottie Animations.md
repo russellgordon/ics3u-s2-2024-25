@@ -138,11 +138,7 @@ You have already [browsed available animations](https://lottiefiles.com/featured
 
 Each Lottie animation can be saved as a JSON file, which is just a text file that has a particular format that is used to describe the animation.
 
-Find an animation you like:
-
-![[Screenshot 2024-01-28 at 6.01.48 PM.png]]
-
-Then click the **Download** button at top-right:
+Find an animation you like, then click the **Download** button at top-right:
 
 ![[Pasted image 20250109142800.png]]
 
