@@ -103,6 +103,8 @@ If things worked correctly, you should see `Lottie` listed under **Package Depen
 > [!NOTE]
 > 
 > The exact version number of the package might vary from what you see in the screenshot above.
+> 
+> For example, the current version of the Lottie package is 4.5.1.
 
 At this point, commit and push your work to your remote, with the message:
 
