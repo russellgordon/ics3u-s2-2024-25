@@ -15,6 +15,8 @@ createdForSectionTwo: 2025-01-14T03:34:55.000-0400
 	> [!TIP]
 	> 
 	> It is recommended that you use the [[Driver-Navigator Pattern]] to complete today's lesson.
+	> 
+	> After completing the lesson, the partner whose computer was not used to write code can obtain code from the other partner by [[Forking a Repository|forking their remote repository]].
 
 ## Things to do before our next class
 
