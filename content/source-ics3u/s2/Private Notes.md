@@ -65,6 +65,14 @@ With those minor changes to `TradingCard`, the `List` structure back on the list
 
 ![[Screenshot 2023-01-21 at 9.17.05 AM.png]]
 
+# Module 3 – Database exercises
+
+*Who made best efforts to complete these exercises on a 0-2 scale?*
+
+## Kaan
+
+0
+
 
 # End of module 1 reviews
 
