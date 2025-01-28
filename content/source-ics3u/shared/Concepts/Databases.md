@@ -247,3 +247,7 @@ Now, try to write queries to answer these questions:
 For reference, here is the diagram showing the database schema once again:
 
 ![[Pasted image 20230328060245.png]]
+
+> [!NOTE]
+> 
+> Since we have now [[Thread 3, Day 13|discussed these solutions in class together]] , if you are reading this after Tuesday, January 28, 2025, you can [[Databases (Solutions)|refer to the solutions here]] to check your work.

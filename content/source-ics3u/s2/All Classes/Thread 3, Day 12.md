@@ -16,7 +16,9 @@ createdForSectionTwo: 2025-01-27T03:34:55.000-0400
 	- You are encouraged to work with a partner using the [[Driver-Navigator Pattern]].
 	> [!IMPORTANT]
 	> 
-	> There will be short quiz in class on Thursday on concepts related to this lesson. You will need to be able to answer some questions about what a database is and write some SQL statements.
+	> There will be short quiz in class on Thursday on concepts related to this lesson.
+	> 
+	> You will need to be able to answer some questions about what a database is and write some SQL statements.
 1. Tutorial: [[To-do List App]]
 	- Build the static interface for a to-do list app to prepare for learning how to use a cloud-hosted database.
 2. Portfolio: Near End-of-Mod Review

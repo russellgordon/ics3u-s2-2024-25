@@ -33,3 +33,7 @@ As a hint, here is *part* of the code needed to get started:
 ![[Screenshot 2024-04-04 at 8.56.28 PM.png]]
 
 And remember... **D.R.Y.!** Where can you *apply abstraction* in this user interface?
+
+> [!TIP]
+> 
+> Carry on and [[To-do List App, Pt. 2|read part 2 of this tutorial]].
