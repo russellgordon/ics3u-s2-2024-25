@@ -11,6 +11,7 @@ createdForSectionTwo: 2025-01-28T03:34:55.000-0400
 ## Agenda
 1. Discussion: [[Databases]]
 	- We will take up these exercises together – the goal is to focus on discussion and explanation.
+		- Here is the [video from our discussion in class today on this](https://vimeo.com/1051529577/e9ec4989f2?ts=0&share=copy).
 	- The [[Databases (Solutions)|solutions are provided in writing here]]; you can make additional portfolio entries as needed for Study this evening.
 	> [!IMPORTANT]
 	> 
