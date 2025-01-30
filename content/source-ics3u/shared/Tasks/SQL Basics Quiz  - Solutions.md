@@ -31,7 +31,7 @@ ORDER BY first_name ASC;
 -- 5. Retrieve the employee id, first name, and last name of all employees who identify as female ('F') and who were born on or after January 1, 1960 (1960-01-01). Order results by last name, then first name, both in ascending order.
 SELECT emp_id, first_name, last_name
 FROM employees
-WHERE birth_date > '1960-01-01' AND gender = 'F'
+WHERE birth_date >= '1960-01-01' AND gender = 'F'
 ORDER BY last_name ASC, first_name ASC;
 
 -- 6. Retrieve all employees whose last name starts with the letter 'M'.
