@@ -15,28 +15,44 @@ FROM employees
 WHERE last_name = 'Schusler';
 
 -- 2. Determine the average salary recorded in the salaries table.
-SELECT AVG(salary) AS average_salary FROM salaries;
+SELECT AVG(salary) AS average_salary
+FROM salaries;
 
 -- 3. Retrieve first_name and last_name of all employees, displaying columns as Given Name and Family Name.
-SELECT first_name AS "Given Name", last_name AS "Family Name" FROM employees;
+SELECT first_name AS "Given Name", last_name AS "Family Name"
+FROM employees;
 
 -- 4. Find all employees whose last name contains the letter 'a', listed in ascending order by first name.
-SELECT * FROM employees WHERE last_name LIKE '%a%' ORDER BY first_name ASC;
+SELECT *
+FROM employees
+WHERE last_name LIKE '%a%'
+ORDER BY first_name ASC;
 
 -- 5. Retrieve the employee id, first name, and last name of all employees who identify as female ('F') and who were born on or after January 1, 1960 (1960-01-01). Order results by last name, then first name, both in ascending order.
-SELECT emp_id, first_name, last_name FROM employees WHERE birth_date > '1960-01-01' AND gender = 'F' ORDER BY last_name ASC, first_name ASC;
+SELECT emp_id, first_name, last_name
+FROM employees
+WHERE birth_date > '1960-01-01' AND gender = 'F'
+ORDER BY last_name ASC, first_name ASC;
 
 -- 6. Retrieve all employees whose last name starts with the letter 'M'.
-SELECT * FROM employees WHERE last_name LIKE 'M%' ORDER BY birth_date ASC;
+SELECT *
+FROM employees
+WHERE last_name LIKE 'M%'
+ORDER BY birth_date ASC;
 
 -- 7. Determine the highest salary in the salaries table.
-SELECT MAX(salary) AS highest_salary FROM salaries;
+SELECT MAX(salary)
+AS highest_salary
+FROM salaries;
 
 -- 8. Determine how many male employees and how many female employees have worked at the company across its entire history.
-SELECT gender, COUNT(*) AS employee_count FROM employees GROUP BY gender;
+SELECT gender, COUNT(*) AS employee_count
+FROM employees
+GROUP BY gender;
 
 -- 9. Find the employee id and salary of the lowest paid employee who has ever worked at the company.
-SELECT emp_id, MIN(salary) FROM salaries
+SELECT emp_id, MIN(salary)
+FROM salaries
 
 ```
 
