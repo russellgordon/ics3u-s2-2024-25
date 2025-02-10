@@ -1,6 +1,6 @@
 ---
-draft: true
-draftSectionTwo: false
+draft: false
+draftSectionTwo: true
 enableToc: true
 excludeBacklinks: true
 created: 2025-02-03T07:00:00.000-0400
@@ -16,8 +16,8 @@ The objective of this exercise is to activate your prior knowledge of these topi
 - [[Structures|structures]]
 - [[Operators|operators]] and computed properties (as from the [[Geometric Figures]] task)
 - user interface design / layouts [[Block Layouts|using]] [[Block Layouts, Part 2|stacks]]
-- [[Lists|lists]] and [[Abstraction Using Lists|abstraction]]
-- [[Navigation to a Detail View|navigation]]
+- [[Arrays|arrays (a.k.a. lists)]] and [[Abstraction Using Lists|abstraction]]
+- [[Navigating to a Detail View|navigation]]
 
 ## Context
 
@@ -30,6 +30,16 @@ The client who has hired you and your partner gave very little direction regardi
 > Users should be able to scroll through a list of departments that have items for sale, just like they can flip through our flyer now. They should be able to navigate down to the on-sale items within each department. Make sure they can see the pictures and price of each on-sale item clearly.
 
 ## Getting started
+
+> [!TIP]
+> 
+> If you prefer, rather than reading the next section to get the project set up, you can follow along with this video – it also explains in further detail why the data model is set up the way that it is:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;">
+> <iframe src="https://player.vimeo.com/video/1053746132?h=90d850acac&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&portrait=0&byline=0&title=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Opening the Teamspace">
+> </iframe>
+> </div>
+> <script src="https://player.vimeo.com/api/player.js"></script>
 
 Make a new iOS project in Xcode named **GroceryStoreFlyer**:
 
