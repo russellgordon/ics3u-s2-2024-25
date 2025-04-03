@@ -281,7 +281,7 @@ It will look like this:
 
 ![[Screenshot 2024-05-19 at 12.40.23 PM.png]]
 
-Then select the API link:
+Then select the **Data API** link:
 
 ![[Screenshot 2024-05-19 at 12.40.57 PM.png]]
 
