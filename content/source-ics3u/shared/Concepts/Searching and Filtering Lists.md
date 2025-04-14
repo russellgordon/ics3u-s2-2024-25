@@ -91,12 +91,60 @@ You have [[Swipe Gestures and Persisting Data#Sharing data|previously learned]] 
 
 Use that same approach to put the array of previous results on one view within this app, and the main user interface of the quiz on its own view.
 
+> [!SOLUTION]-
+> 
+> We [[Swipe Gestures and Persisting Data#Sharing data|previously learned]] how to share data between tabs in the JokeFinder app.
+> 
+> Now, we will use the same approach to share data between tabs in this app. Here is the overview of what we will attempt to do:
+> 
+> ```mermaid
+> flowchart LR
+> subgraph aep["&nbsp;"]
+> 	direction TB
+> 	id1["<b>App Entry Point</b>"]
+> 	id2[("<b>QuizViewModel</b><br/><em>Observable class</em>")]
+> end
+> subgraph ae["<b>App's Environment</b>"]
+> 	direction LR
+> 	id3["<b>QuizView</b>"]
+> 	id4["<b>HistoryView</b>"]
+> end
+> id1-.creates instance of.->id2
+> aep-- inserted into -->ae
+> id3~~~id4
+> id3~~~|All subviews<br/>can access<br/>the view model<br/>via @Environment<br/>property wrapper|id3
+> ```
+> 
+> This video shows you how to get started, and introduces the `@Bindable` property wrapper, which allows for a two-way, or read-write connection to the view model from the views that access it through the environment:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1075413396?h=914f42047a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Bindable (Two way or read-write) Access to the View Model"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+> 
+> Now, conceptually, the app architecture is the same, but notice there is a two-way arrow or connection between the view model and views that access it through the environment:
+> 
+> ```mermaid
+> flowchart LR
+> subgraph aep["&nbsp;"]
+> 	direction TB
+> 	id1["<b>App Entry Point</b>"]
+> 	id2[("<b>QuizViewModel</b><br/><em>Observable class</em>")]
+> end
+> subgraph ae["<b>App's Environment</b>"]
+> 	direction LR
+> 	id3["<b>QuizView</b>"]
+> 	id4["<b>HistoryView</b>"]
+> end
+> id1-.creates instance of.->id2
+> aep<-- inserted into -->ae
+> id3~~~id4
+> id3~~~|<br/>View model access is<br/>read-write when @Bindable is used<br/> in combination with @Environment|id3
+> ```
+
 ### Add search
 
 Instead of filtering, what if the user could search the list of outcomes based on text they type in?
 
 Write a function to allow for this. Use the `.searchable` view modifier on the scrollable list to allow the user to type in a search string.
 
-> [!NOTE]
+> [!TIP]
 > 
-> As mentioned in class today, this exercise will be done in our next class (Friday). Mr. Gordon will provide a hint to help everyone get started.
+> An entry to explain the solution to this exercise is coming shortly.
