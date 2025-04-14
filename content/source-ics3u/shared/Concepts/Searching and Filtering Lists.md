@@ -138,6 +138,12 @@ Use that same approach to put the array of previous results on one view within t
 > id3~~~id4
 > id3~~~|<br/>View model access is<br/>read-write when @Bindable is used<br/> in combination with @Environment|id3
 > ```
+> 
+> As was mentioned in the video above, once you learn how to use the `@Bindable` property wrapper, I think that if you [[Swipe Gestures and Persisting Data#Sharing data|review the instructions given earlier when building the JokeFinder app]], you should be able to build out the desired two-tab interface.
+> 
+> However, you'd like, you can watch this short video below, where the complete solution to this exercise is shared:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1075499008?h=4aef5da23e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Adding a Second Tab to the Spelling App"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Add search
 
