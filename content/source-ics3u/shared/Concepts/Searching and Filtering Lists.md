@@ -38,6 +38,51 @@ Do you notice anything about the buttons in this game that feels incorrect?
 
 Use boolean variable(s) in the view model, and the `.disabled` view modifier on the buttons, to control when different buttons are enabled or disabled.
 
+> [!SOLUTION]-
+> 
+> As we play the game, we notice that the green **New Word** button is enabled when it shouldn't be, which leads to incorrect results:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1075369169?h=584cbadf75&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Word Button Available When It Shouldn&#039;t Be"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+> 
+> To solve this problem, we need to add *state* – that is, a new variable – to keep track of when this button should be enabled.
+> 
+> Where should this variable be declared, though? Remember the MVVM design pattern, and what each layer is meant to be used for:
+> 
+> ```mermaid
+> flowchart LR
+> 
+> id1["<b>Model</b><br/>Describes data"] --> id2["<b>View Model</b><br/>Manages the state of data<br/>Contains business logic"]
+> id2 --> id3["<b>View(s)</b><br/>Presents data"]
+> id3 --> id2
+> 
+> ```
+> 
+> The view model is meant to hold data, and the view presents that data. 
+> 
+> So, we add the following stored property to our view model to keep track of when the **New Word** button should be disabled:
+> 
+> ![[Pasted image 20250414114910.png]]
+> 
+> If we then immediately make use of the `.disabled` view modifier in the view, we see that the button is disabled, since we defaulted the `isNewWordButtonDisabled` stored property in the view model to `true`:
+> 
+> ![[Pasted image 20250414115214.png]]
+> 
+> If we play the game at this point, there will be a problem, because we will never be able to select a new word! 
+> 
+> So, we must *change the state* of `isNewWordButtonDisabled` at the appropriate time. Then, the user interface will update based on the state (`true` or `false`) of `isNewWordButtonDisabled`.
+> 
+> If we think about it, we realize that once the user has checked their guess on a given word, that they then need to be able to ask for a new word to keep playing the game. So, we can add this code to our view model function `checkGuess`:
+> 
+> ![[Pasted image 20250414115512.png]]
+> 
+> Next, after a new word has been selected... the user should not immediately be able to select a new word. So, we make the button disabled again by adding this code to our view model function named `newWord`:
+> 
+> ![[Pasted image 20250414120359.png]]
+> 
+> Now, when we try out the app, we will see that the button is available for use only at the appropriate times during game play:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1075378759?h=54999b9dd8&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="New Word Button is Available at the Correct Times"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
 ### Use tabs
 
 The interface feels a bit crowded with the scrollable list right below the main user interface of the game.
