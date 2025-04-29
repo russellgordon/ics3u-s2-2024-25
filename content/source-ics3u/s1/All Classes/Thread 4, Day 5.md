@@ -12,7 +12,7 @@ created: 2025-04-29T07:00:00.000-0400
 	- Please see [[Culminating#Getting started|these notes]] that describe how to get started.
 	- If your prototype is complete, you will engage in a feedback session with a randomly assigned partner today.
 	- If your prototype is not yet complete, not a problem!
-		- Be sure to have it complete for tomorrow's class to receive feedback from a peer before the mod ends.
+		- Be sure to have it complete for tomorrow's class to receive feedback, so you can make revisions to your prototype in time for Friday's deadline (see below).
 
 > [!IMPORTANT]
 > 
