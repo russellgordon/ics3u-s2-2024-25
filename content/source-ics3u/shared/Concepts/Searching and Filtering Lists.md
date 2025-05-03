@@ -151,6 +151,35 @@ Instead of filtering, what if the user could search the list of outcomes based o
 
 Write a function to allow for this. Use the `.searchable` view modifier on the scrollable list to allow the user to type in a search string.
 
-> [!TIP]
+> [!SOLUTION]-
 > 
-> An entry to explain the solution to this exercise is coming shortly.
+> In class we looked at how to search through and filter a list of food items using paper props.
+> 
+> We *iterated* over the list of items, meaning we looked at each item in the list, one after another.
+> 
+> Each item, while we were looking at it, was identified by the temporary label of `foodItem`.
+> 
+> For each item, we asked ourselves a question. For example: *"Is this food item a healthy food item?"* When the answer was *yes*, we copied that food item to a new list.
+> 
+> Finally, after iterating over the entire existing list, we had a new list that contained only the healthy food items. In code, we would return this list from a function.
+> 
+> Here is a short video where this same *algorithm* or sequence of steps is performed, but this time, to filter a list based on whether answers were *correct* or *incorrect*.
+> 
+> Please watch this video to familiarize yourself with the code:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081122590?h=b1f91900d3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Filtering an Array Recap"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+> 
+> To make a list *searchable* based on some provided text, we use an identical algorithm. 
+> 
+> The only things that change are:
+> 
+> 1. One of the inputs – instead of an outcome (undetermined, correct, or incorrect) – the function accepts a string to search for in the food item name.
+> 2. The condition used to determine whether a given food item is copied from the original list into the filtered list.
+>    
+> In SwiftUI, we can use the `.searchable` view modifier to have a search field appear in the user interface. When text is entered in the search field, the `.searchable` view modifier will update a stored property. In turn, the view is refreshed, and we invoke the search function to obtain a filtered list that contains only what was typed in the search field.
+> 
+> Here is a brief video that explains how to implement this:
+> 
+> <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081124973?h=c8fffcc999&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Searching an Array - Solution"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+> 
+> As needed, please do drop by Grove Time or ask questions through your portfolio [on Notion](https://notion.so) to better understand how to implement searching and filtering of lists in your apps.
