@@ -76,7 +76,7 @@ major cities.
 
 Here is the response Mr. Gordon received from ChatGPT:
 
-> Here is the SQL code to create the database tables as described in the provided ER diagram, along with the sample data for each table:> 
+> Here is the SQL code to create the database tables as described in the provided ER diagram, along with the sample data for each table: 
 > 
 > ```sql
 > CREATE TABLE country (
@@ -179,7 +179,7 @@ Like this:
 
 ![[Screenshot 2024-06-08 at 1.08.19 PM.png]]
 
-The database connection information was obtained from the **API** section of **Project Settings**:
+The database connection information was obtained from the **Data API** section of **Project Settings**:
 
 ![[Screenshot 2024-06-08 at 1.06.00 PM.png]]
 
@@ -223,7 +223,7 @@ Listing countries alone might be useful.
 
 It would be more useful to be able to list countries – and then navigate down to the many cities that belong to the selected country.
 
-This is an example of loading from the database when a one to many relationship exists, and is equivalent to running this SQL statement, which you learned how to do earlier this year:
+This is an example of loading from the database when a one to many relationship exists, and is equivalent to running this SQL statement:
 
 ```sql
 SELECT 
@@ -366,7 +366,7 @@ Now, returning to the list view, we see that information is loaded correctly –
 
 Mr. Gordon then committed his work.
 
-##### Adding a cities list view
+#### Adding a cities list view
 
 What we really want to do, though, is navigate from our list of countries to another list that shows the cities in that country.
 
@@ -380,7 +380,7 @@ He then modified the `CountriesListView` so that it provides navigation down to 
 
 The app now works as follows:
 
-![[RocketSim_Recording_iPhone_15_Pro_6.1_2024-06-08_15.07.34.gif|350]]
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081589915?h=0eaee79ea5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Counties to Cities"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 This illustrates how to read data from two database tables – `country` and `city` – when a one to many relationship exists between them.
 
@@ -437,7 +437,7 @@ Mr. Gordon then made edits to `CitiesListView` so that it presents a sheet showi
 
 Here is the result after making these changes:
 
-![[RocketSim_Recording_iPhone_15_Pro_6.1_2024-06-08_16.13.29.gif|350]]
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081590297?h=d4ede80dca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Adding Cities"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 We can see that the new cities were in fact added in the `city` database:
 
@@ -447,7 +447,7 @@ We can see that the new cities were in fact added in the `city` database:
 
 What if, in our app, we wanted to simply list all of the cities that have been defined in alphabetical order, along with the country they are part of?
 
-As a raw SQL query, like we learned to write earlier this year, that would look like this:
+As a raw SQL query that would look like this:
 
 ```sql
 SELECT 
@@ -517,7 +517,7 @@ This guide has demonstrated that for a given pair of entities:
 
 So if we are going to show a list of all the countries, when the user selects a given country, we need to let them navigate or "drill down" in the user interface, to see the many cities that exist for the selected country:
 
-![[RocketSim_Recording_iPhone_15_Pro_6.1_2024-06-08_15.07.34.gif|350]]
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081590836?h=4a159bf593&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Cities Within Countries"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 And in the other direction:
 
@@ -546,7 +546,7 @@ He then modified the app entry point to create an instance of `LandingView`:
 
 Overall, the app now looks and functions like this:
 
-![[RocketSim_Recording_iPhone_15_Pro_6.1_2024-06-08_18.02.20.gif|350]]
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1081591144?h=61a7690bc9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Completed Cities and Countries App"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 ### Source code
 
