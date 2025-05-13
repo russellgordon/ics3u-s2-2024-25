@@ -1,8 +1,8 @@
 ---
 draft: false
-draftSectionTwo: true
-created: 2025-05-05T07:00:00.000-0400
-createdForSectionTwo: 2025-05-05T07:00:00.000-0400
+draftSectionTwo: false
+created: 2025-05-13T07:00:00.000-0400
+createdForSectionTwo: 2025-05-13T07:00:00.000-0400
 tags:
 ---
 
@@ -102,9 +102,9 @@ The *source of truth* for data within our app is our Supabase database. Supabase
 
 We will add an observable class to our app named `EnrollmentChangeNotifier`. It will use the Supabase framework to **subscribe** to a realtime channel, and will therefore be notified whenever the database is updated.
 
-So, `EnrollmentChangeNotifier` is a *broker* that handles the job of knowing when the database is updated. It will in turn contain a single stored property named `changeCount` that is an integer. Whenever the database is updated, `EnrollmentChangeNotifier` will increment `changeCount` by one – that makes it a **publisher** within our app.
+`EnrollmentChangeNotifier` is also a **publisher**, as it contains a single stored property named `changeCount`. Whenever the database is updated, `EnrollmentChangeNotifier` will increment `changeCount` by one. We can describe `EnrollmentChangeNotifier` as a *broker* because it acts as both a subscriber and a publisher.
 
-Views that would otherwise miss database changes will observe `changeCount` on `EnrollentChangeNotifier`  through the environment. Using a `.onChange(of:)` view modifier, each view **subscribes** to the broker, `EnrollmentChangeNotifier`. When a view sees that `changeCount` has been incremented, it will ask its view model to refresh data (to fetch new information from the database).
+In turn, within our app, view(s) that would otherwise be unaware of database changes will observe `changeCount` on `EnrollentChangeNotifier`  through the environment. Using a `.onChange(of:)` view modifier, each view **subscribes** to the broker, `EnrollmentChangeNotifier`. When a view sees that `changeCount` has been incremented, it will ask its view model to refresh data (to fetch new information from the database).
 
 This will let us **fan out** a single event (e.g.: a database change) to one or more views within our app.
 
@@ -196,7 +196,7 @@ Before we add code to implement the pub/sub messaging pattern in our app, it wil
 
 As our apps grow in complexity, they become harder to debug. We need to know what is happening and when. That is where *log messages* or *logging* can help.
 
-The gist of the idea is to sprinkle messages to ourselves (as developers) throughout our app. End users will never see these messages, but they can help us as developers to debug logical errors during the development process, and potentially, understand what went wrong if we happen to ship an app with a bug to our end-users.
+The gist of the idea is to sprinkle messages to ourselves (as developers) throughout our app. End users will never see these messages, but they can help us as developers to debug logical errors during the development process, and potentially, to understand what went wrong if we happen to ship an app with a bug to our end-users.
 
 We can organize our log messages into different categories. Let's start doing this now, by copying this code:
 
@@ -388,7 +388,7 @@ Using the pub/sub messaging pattern means that:
 - our views will subscribe to the change notifier class
 - when a view observes a change to `changeCount`, it will ask its view model to refresh its data from the database
 - data in the view model will change
-- we want to see this happen in the user interface
+- we want to the updated data in our user interface
 
 **To be sure that we see these changes reliably, we must run view models on the main thread of our application.**
 
@@ -471,21 +471,17 @@ We make these adjustments:
 
 #### Update view
 
-Next, we can adjust `EnrolmentsView` so that it:
+Next, we adjust `EnrolmentsView` in three ways.
 
-1. retrieves a reference to the change notifier class from the environment
-2. creates its view models and keeps them as stored properties
-3. observes the change notifier and updates its view models when a database change occurs
-
-Here is the first change:
+First, we retrieve a reference to the change notifier class from the environment:
 
 ![[Pasted image 20250512164147.png]]
 
-Here is the second change:
+Next, we create its view models as stored properties – these are in turn passed as arguments to the views that use them:
 
 ![[Pasted image 20250512164311.png]]
 
-Here is the third and final change:
+Finally, we make `EnrolmentsView` observe the change notifier and update its view models when a database change occurs:
 
 ![[Pasted image 20250512165734.png]]
 
