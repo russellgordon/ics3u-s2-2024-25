@@ -20,7 +20,7 @@ createdForSectionTwo: 2025-05-26T03:34:55.000-0400
 			> 
 			> Interview slides must be completed by 10 PM this evening – that is when Mr. Gordon will make a copy of your slide deck – you will present from that slide deck tomorrow (Tuesday) morning.
 			- Here is the schedule tomorrow morning's interviews, as determined by random selection in today's class:
-			  `will be added by Mr. Gordon` after class begins
+			  ![[Screenshot 2025-05-26 at 2.43.26 PM.png]]
 		-  Mr. Gordon will now speak briefly about how to use the slide deck.
 	- Next, please take 5-10 minutes to [complete the end-of-year class survey](https://docs.google.com/forms/d/e/1FAIpQLSdBD23okiXQ_5nK-TdIgOR21F0JND9ggk1yndVAGpsbD7sSAA/viewform?usp=dialog).
 	- Finally, Mr. Gordon will check in with each student to be sure he has the latest version of their code.
